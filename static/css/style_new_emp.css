@@ -1,4 +1,17 @@
+/**
+* Template Name: Dashio
+* Template URL: https://templatemag.com/dashio-bootstrap-admin-template/
+* Author: TemplateMag.com
+* License: https://templatemag.com/license/
+*/
+/*
+Template Name: DASHIO - Bootstrap 3.1.1 Admin Theme
+Template Version: 1.0
+Author: Carlos Alvarez
+Website: http://Alvarez.is/
+*/
 
+/* Import fonts */
 @import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
 
 /* BASIC THEME CONFIGURATION */
@@ -28,31 +41,6 @@ a, a:hover, a:focus {
     background: #4ECDC4;
     color: #fff;
 }
-#main-content1 {
-color:white;
-margin-top: -200px;
-    margin-left: 905px;
-}
-.su{
-	position: fixed;
-	top: 100;
-right: 100;}
-
-.edit{
-background-color:black;
-top:0px;
-width:150px;
-height:350px
-}
-.wrapper1 {
-    display: inline-block;
-    margin-top: -2000px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-top: 0px;
-    width: 35%;
-}
 
 #container {
     width: 100%;
@@ -60,16 +48,6 @@ height:350px
 }
 
 /* Bootstrap Modifications */
-.fixed{
-	
-	position: absolute;
-  bottom:0;
-  right:0;
-  width: 10000;
- 
-}
-
-	
 .modal-header {
 	background: #4ECDC4;
 }
@@ -211,20 +189,10 @@ hr {
 }
 
 .mt {
-	
 	margin-top: 25px;
 }
-.mt1 {
-	margin-top: 25px;
-	width:1225px;
-	
-}
-#ch{
-diaplay:block;
-height:100;
-width:100;}
+
 .mb {
-	
 	margin-bottom: 25px;
 }
 
@@ -432,7 +400,6 @@ ul.sidebar-menu li a.active i {
 /* MAIN CONTENT CONFIGURATION */
 #main-content {
     margin-left: 210px;
-	
 }
 
 .header, .footer {
@@ -456,7 +423,7 @@ ul.sidebar-menu li a.active i {
     display: inline-block;
     margin-top: 60px;
     padding-left: 15px;
-    padding-right: 0px;
+    padding-right: 15px;
     padding-bottom: 15px;
     padding-top: 0px;
     width: 100%;
@@ -802,7 +769,6 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 .ds {
 	background: #d6d9dc;
 	padding-top: 20px;
-	width:1000;
 }
 
 .ds h4 {
@@ -901,8 +867,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     background: #4ECDC4;
     color: #4ECDC4;
     width: 100%;
-    -webkit-
-	-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
     border-radius: 5px 5px 0 0;
     -webkit-transition: all .3s ease;
@@ -949,7 +914,6 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 /*Donut Chart Main Page Conf*/
 .donut-main {
 	display: block;
-	width:100px;
 	text-align: center;
 }
 
@@ -973,16 +937,11 @@ PANELS CONFIGURATIONS
 /*Grey Panel*/
 
 .grey-panel {
-	height:150px;
-	text-align: left;
-	background: #444c57;
-}
-#1{
-	position:absolute;
-	right:0
+	text-align: center;
+	background: #dfdfe1;
 }
 .grey-panel .grey-header {
-	background:#444c57 ;
+	background: #ccd1d9;
 	padding: 3px;
 	margin-bottom: 15px;
 }
@@ -1008,12 +967,10 @@ PANELS CONFIGURATIONS
 /* Dark Blue*/
 
 .darkblue-panel {
-	height:1000px;
 	text-align: center;
 	background: #444c57;
 }
 .darkblue-panel .darkblue-header {
-	
 	background: transparent;
 	padding: 3px;
 	margin-bottom: 15px;
@@ -1037,14 +994,13 @@ PANELS CONFIGURATIONS
 
 /*Green Panel*/
 .green-panel {
-	
 	text-align: center;
 	background: #4ECDC4;
 }
 .green-panel .green-header {
 	background: #43b1a9;
 	padding: 3px;
-	margin-bottom: 0px;
+	margin-bottom: 15px;
 }
 .green-panel h5 {
 	color: white;
@@ -1052,7 +1008,6 @@ PANELS CONFIGURATIONS
 	margin-top: 10px;
 }
 .green-panel h3 {
-	width:100px;
 	color: white;
 	font-weight: 100;
 }
@@ -3231,7 +3186,7 @@ ul.chat-available-user li a:hover {
     border-radius: 0px 0px 0px 4px;
 }
 
-.panel-footer.revenue-foot ul li.last a:hover, .panel- .revenue-foot ul li.last a {
+.panel-footer.revenue-foot ul li.last a:hover, .panel-footer.revenue-foot ul li.last a {
     -webkit-border-radius: 0px 0px 4px 0px;
     border-radius: 0px 0px 4px 0px;
     border-right: none;
@@ -3395,7 +3350,6 @@ ul.chat-available-user li a:hover {
 
 .site-min-height {
     min-height: 900px;
-	text-align:left;
 }
 
 
